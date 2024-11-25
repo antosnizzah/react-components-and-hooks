@@ -24,4 +24,26 @@ A beginner-friendly project for creating a simple landing page using **React** a
 
 ## Project Structure
 
-project/ │ ├── src/ │ ├── components/ │ │ ├── LandingPage.jsx # Main landing page component │ │ ├── Footer.jsx # Footer component │ ├── styles/ │ │ ├── LandingPage.css # Styles for LandingPage │ │ ├── Footer.css # Styles for Footer │ ├── App.jsx # Root component │ └── index.js # Entry point │ └── public/ ├── index.html # Main HTML file
+react-landing-page/
+│
+├── public/
+│   ├── index.html
+│
+├── src/
+│   ├── components/
+│   │   ├── Footer/
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Footer.css
+│   │   ├── Navbar/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Navbar.css
+│   ├── pages/
+│   │   │   ├── LandingPage.jsx
+│   │   │   ├── LandingPage.css
+│   ├── App.jsx
+│   └── index.js
+│
+├── .gitignore
+├── package.json
+├── README.md
+
